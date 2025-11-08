@@ -8,7 +8,7 @@ Unlike simple text explainers, **AI Explainer** understands the *context of the 
 
 ## ✨ Features
 
-- 🖱️ **Right-click “Explain with AI”** – Highlight any text, right-click, and choose “Explain this” to get a clear, simplified AI explanation.  
+- 🖱️ **Right-click “Explain with AI”** – Highlight any text, right-click, and click “Explain with AI” to get a clear, simplified AI explanation.  
 - 🌐 **Works anywhere** – Compatible with all websites and most web apps.  
 
 ---
@@ -17,5 +17,5 @@ Unlike simple text explainers, **AI Explainer** understands the *context of the 
 
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/yourusername/ai-explainer-extension.git
-cd ai-explainer-extension
+git clone https://github.com/jmcatamora21/ai-explainer.git
+cd ai-explainer
