@@ -2,7 +2,7 @@
 
 **AI Explainer** is a browser extension that lets users highlight any text on a webpage, right-click, and instantly get a clear, AI-generated explanation — turning the entire web into an interactive learning environment.
 
-It’s like having a built-in AI tutor wherever you browse. Whether you're reading technical documentation, research papers, or news articles, **AI Explainer** helps you understand complex content instantly without switching tabs or breaking your flow.
+Unlike simple text explainers, **AI Explainer** understands the *context of the website* and adapts its explanations accordingly. Whether you’re reading developer documentation, research papers, or news articles, it tailors the response to match the subject matter — delivering more accurate, relevant, and helpful answers.
 
 ---
 
