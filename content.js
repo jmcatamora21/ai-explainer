@@ -8,7 +8,7 @@ async function getExplaination(txt){
     const response = await fetch('https://apifreellm.com/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: "(context " + contextUrl + ", no using asterisk, no follow-up questions, organize in html elements no headings, do not wrap the code in ```html or ``` blocks, no yapping) explain this in a very short details: " + txt })
+        body: JSON.stringify({ message: "(context " + contextUrl + ", no using asterisk, no follow-up questions, organize in html elements no headings, do not wrap the code in ```html or ``` blocks, no yapping, respond directly to the user’s request) explain this in a very short details: " + txt })
     });
     const data = await response.json();
 
