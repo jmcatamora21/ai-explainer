@@ -1,4 +1,4 @@
-# 🧠 AI Explainer – Chrome Extension
+# 🧠 AI Explainer – Browser Extension
 
 **AI Explainer** is a browser extension that lets users highlight any text on a webpage, right-click, and instantly get a clear, AI-generated explanation — turning the entire web into an interactive learning environment.
 
