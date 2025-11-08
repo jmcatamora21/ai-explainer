@@ -16,17 +16,6 @@ It’s like having a built-in AI tutor wherever you browse. Whether you're readi
 
 ---
 
-## 🧰 Tech Stack
-
-| Component | Technology |
-|------------|-------------|
-| Browser APIs | Chrome Manifest V3, Context Menus, Scripting |
-| Frontend | JavaScript, HTML, CSS |
-| AI Backend | OpenAI GPT-4o-mini / GPT-4 |
-| Styling | Minimal CSS or TailwindCSS (for popup) |
-
----
-
 ## 🚀 Installation & Setup
 
 ### **1️⃣ Clone the repository**
