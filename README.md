@@ -24,6 +24,15 @@ git clone https://github.com/jmcatamora21/ai-explainer.git
 cd ai-explainer
 ```
 
+### 2️⃣ Load the extension in your browser
+
+#### **Chrome / Edge**
+
+1. Open `chrome://extensions/`
+2. Enable **Developer mode**
+3. Click **Load unpacked**
+4. Select the cloned `ai-explainer` folder
+
 ---
 
 ## 📄 License
