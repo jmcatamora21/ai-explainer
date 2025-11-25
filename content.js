@@ -5,14 +5,23 @@ var currentSelectedText;
 var contextUrl = window.location.host + window.location.pathname;
 
 async function getExplaination(txt){
-    const response = await fetch('https://apifreellm.com/api/chat', {
+    const res = await fetch('https://jmcadev.site/api/ai-explainer', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: "(context " + contextUrl + ", no using asterisk, no follow-up questions, organize in html elements no headings, do not wrap the code in ```html or ``` blocks, no yapping, respond directly to the user’s request) explain this in a very short details: " + txt })
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            text: txt,
+            contextUrl: contextUrl,
+        })
     });
-    const data = await response.json();
 
-    return data.status === 'success' ? data.response : false;
+    if (!res.ok) {
+        throw new Error('Server error');
+    }
+
+    const data = await res.json();
+    return data.result;
 }
 
 const body = document.body;
@@ -70,12 +79,15 @@ contextMenu.querySelector("div:nth-child(1)").addEventListener("click",async fun
         contextMenu.querySelector("span.retry-icon").style.display = "none";
         isFetching = true;
         let result = await getExplaination(txt);
+     
         if (!result) {
             isFetching = false;
             contextMenu.querySelector("span.retry-icon").style.display = "block";
             contextMenu.querySelector("div span.exbtn").textContent = "An error occured"
             return 
         }
+
+      
         hasResult = true;
         previousSelectedText = txt;
         isFetching = false;
