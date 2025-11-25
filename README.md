@@ -15,6 +15,17 @@ Powered by **Gemini AI**, AI Explainer goes beyond basic text explainers by unde
 
 ---
 
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/jmcatamora21/ai-explainer.git
+cd ai-explainer
+```
+
+---
+
 ## 📄 License
 
 MIT License – see `LICENSE` file for details.
